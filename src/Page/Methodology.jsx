@@ -16,9 +16,9 @@ const Methodology = () => {
             <div className="bg-white rounded-lg p-6 flex flex-col justify-end items-center">
               <h1 className='text-3xl w-[50rem] font-semibold my-5 text-center'>Student-Centered Learning</h1>
               <p className='text-2xl w-[35rem] md:w-[50rem] h-[25rem]'>We focus on creating a learning environment where students are actively engaged in their education. Through inquiry-based learning, project-based learning, and collaborative activities, we empower students to become independent thinkers.</p>
-            </div>
+            </div>     
           </div>
-
+ 
 
           {/* method 2 */}
           <div className="bg-white rounded-lg p-6 flex flex-col md:flex-row justify-center items-center">
