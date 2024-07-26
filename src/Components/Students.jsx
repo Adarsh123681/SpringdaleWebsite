@@ -37,19 +37,19 @@ function Students() {
     <>
       <div className="container ">
         {/* Video Background */}
-        <div className="relative h-screen bg-cover bg-center bg-blend-darken">
-          <video autoPlay loop muted className="w-full h-full object-cover bg-blend-darken">
+        <div className="relative h-screen w-screen">
+          <video autoPlay loop muted className="w-full h-full  ">
             <source src="https://media.istockphoto.com/id/1071486906/video/elementary-school-kids-run-from-camera-in-school-corridor.mp4?s=mp4-640x640-is&k=20&c=IG9-1UtgfjaUQS2V-yyE8lfh13FbxD9O6qQZHXVJFzY=" />
           </video>
           <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center  bg-black/50">
-            <h1 className="text-4xl font-bold text-white">Life at Springdale</h1>
+            <h1 className="text-5xl font-bold text-white">Life at Springdale</h1>
           </div>
         </div>
 
         {/* Activities and Clubs Sections (Grid) */}
         <div className="grid gap-4">
           <div ref={activitiesRef} className="rounded-lg p-8">
-            <h2 className="text-2xl font-bold mb-4">Extracurricular Activities</h2>
+            <h2 className="text-3xl text-center font-bold mb-4">Extracurricular Activities</h2>
             <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               {extradata.extracurricularActivities.map((ele, index) => {
                 const { name, image } = ele;
@@ -64,7 +64,7 @@ function Students() {
           </div>
 
           <div ref={clubsRef} className= " rounded-lg p-8">
-            <h2 className="text-2xl font-bold mb-4">Clubs and Societies</h2>
+            <h2 className="text-3xl text-center font-bold mb-4">Clubs and Societies</h2>
             <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               {clubdata.clubs.map((element, index) => {
                 const { name, image } = element;

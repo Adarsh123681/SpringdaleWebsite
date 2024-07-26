@@ -24,7 +24,7 @@ const Achievement = () => {
         </div>
 
         <section className="student-council text-center m-10">
-      <h2 className="text-2xl font-bold mb-4 ">Student Council</h2>
+      <h2 className="text-3xl font-bold mb-4 text-center">Student Council</h2>
       <ul className="list-none">
         {studentCouncil.map((member, index) => (
           <motion.li

@@ -61,9 +61,9 @@ const About = () => {
 
           {/* mession vision */}
           <div className="mission flex-1">
-            <div className="img relative">
-              <img src="https://media.istockphoto.com/id/1344939844/photo/hand-holding-drawing-virtual-lightbulb-with-brain-on-bokeh-background-for-creative-and-smart.jpg?s=2048x2048&w=is&k=20&c=vL6VgSTXd9Xn3d0F8DCD_a9o2LO2O_UcTpHPrs4HaVc=" alt="Mission Statement" className="w-full h-full object-cover" />
-              <div className="flex flex-col lg:flex-row overlay absolute top-0 left-0 w-full h-full items-center justify-center bg-black/50">
+            <div className="img relative h-[40rem]">
+              <img src="https://img.freepik.com/free-photo/3d-rendering-arrow-hitting-target_23-2151266590.jpg?t=st=1721981364~exp=1721984964~hmac=76ac682f60866cb99125b4e37bd55967dc90ff996aba1505b7d45dc623750629&w=1060" />
+              <div className="overlay absolute top-0 left-0 w-full h-full flex items-center justify-center bg-black/50">
                 <h2 className="text-white text-4xl text-center ">Mission  <p className=" text-2xl m-4"> To empower students with the knowledge, skills, and values needed to thrive in a dynamic world.</p></h2>
                 <div className="content">
                 </div>
@@ -75,7 +75,7 @@ const About = () => {
           {/* vision */}
           <div className="vision flex-1">
             <div className="img relative">
-              <img src="https://media.istockphoto.com/id/1344939844/photo/hand-holding-drawing-virtual-lightbulb-with-brain-on-bokeh-background-for-creative-and-smart.jpg?s=2048x2048&w=is&k=20&c=vL6VgSTXd9Xn3d0F8DCD_a9o2LO2O_UcTpHPrs4HaVc=" alt="Vision Statement" className="w-full h-full object-cover" />
+              <img src="https://img.freepik.com/free-photo/3d-rendering-arrow-hitting-target_23-2151266590.jpg?t=st=1721981364~exp=1721984964~hmac=76ac682f60866cb99125b4e37bd55967dc90ff996aba1505b7d45dc623750629&w=1060" />
               <div className="overlay absolute top-0 left-0 w-full h-full flex items-center justify-center bg-black/50">
                 <h2 className="text-white text-4xl text-center ">Vision  <p className=" text-2xl m-4">
                   To create a learning environment that fosters academic excellence, critical thinking, and ethical values.
@@ -92,10 +92,10 @@ const About = () => {
 
       <div className="principal-message text-center my-16">
 
-        <img class="rounded-full w-96 h-96 m-auto my-10" src="https://cdn.pixabay.com/photo/2016/11/23/00/57/adult-1851571_640.jpg" alt="image description"/>
+        <img class="rounded-full w-96 h-96 m-auto my-10" src="https://cdn.pixabay.com/photo/2016/11/23/00/57/adult-1851571_640.jpg" alt="image description" />
 
-          <h2 className="font-bold text-4xl">Principal's Message</h2>
-          <p className='text-2xl py-5'>At Springdale, we believe in nurturing the potential of every student and guiding them towards a successful future.</p>
+        <h2 className="font-bold text-4xl">Principal's Message</h2>
+        <p className='text-2xl py-5'>At Springdale, we believe in nurturing the potential of every student and guiding them towards a successful future.</p>
       </div>
 
       <div className="facilities mt-8">
