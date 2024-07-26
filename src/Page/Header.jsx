@@ -28,7 +28,7 @@ const Header = () => {
               const { image, title, description } = item
               return (
                 <>
-                  <div key={index} className="relative">
+                  <div key={title} className="relative">
                     <img src={image} className="w-full h-screen object-cover" />
                     <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center bg-black/50">
                       <h2 className="text-3xl font-bold text-pink-300 w-[43rem] lg:w-[60rem] text-center py-2 ">{title}</h2>
