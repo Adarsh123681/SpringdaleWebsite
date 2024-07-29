@@ -3,7 +3,7 @@ export const data = {
     {
       name: "Music",
       image:
-        "https://images.unsplash.com/photo-1495727034151-8fdc73e332a8?q=80&w=865&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://media.istockphoto.com/id/1045440394/photo/high-school-students-playing-in-school-orchestra-together.jpg?s=612x612&w=0&k=20&c=rdeQPfVi0QnnQ0QclbPYPDzdvyCnGPNK3O3JiT-KNHM=",
       unsplashLink: "https://unsplash.com/photos/1560785815-170c68508460",
     },
     {
@@ -65,7 +65,7 @@ export const data = {
     {
       name: "Astronomy Club",
       image:
-        "https://images.unsplash.com/photo-1495727034151-8fdc73e332a8?q=80&w=865&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA",
+        "https://img.freepik.com/premium-photo/back-school-abstract-background_677805-1000.jpg",
       unsplashLink: "https://unsplash.com/photos/1493663284026-4caf497ae0f4",
     },
   ],

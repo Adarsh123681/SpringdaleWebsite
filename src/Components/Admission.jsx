@@ -29,8 +29,8 @@ const Admission = () => {
             <motion.div   initial={{ opacity: 0, translateY: 50 }}
             animate={{ opacity: 1, translateY: 0 }}
             transition={{ duration: 1, delay: 0.2 }} className="text-center text-white" >
-              <h1 className="text-5xl font-bold text-pink-200">Admissions Open</h1>
-              <p className="mt-4 text-2xl">Enroll Your Child Today</p>
+              <h1 className="text-5xl font-bold text-pink-500">Admissions Open</h1>
+              <p className="mt-4 text-xl">Enroll Your Child Today</p>
             </motion.div>
           </div>
         </section>

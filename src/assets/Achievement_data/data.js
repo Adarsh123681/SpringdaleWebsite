@@ -1,7 +1,7 @@
 const data = [
   {
     image:
-      "https://media.istockphoto.com/id/1148219796/photo/teachers-applauding-for-student-at-awards-ceremony.jpg?s=612x612&w=0&k=20&c=L5AeBPngksvczcxJZ-5OjmUDmb2sJg4aadIqsjL57Sg=",
+      "https://assets.telegraphindia.com/telegraph/2023/Jun/1685773041_sph-222-1.jpg",
     name: "John Smith",
     achievement: "National Level Math Olympiad Winner",
   },

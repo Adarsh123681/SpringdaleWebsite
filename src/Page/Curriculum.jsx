@@ -35,7 +35,7 @@ function Curiiculum() {
             transition={{ duration: 1, delay: 0.2 }}
             className="text-center text-white"
           >
-            <h1 className="text-5xl font-bold">Nurturing Future Leaders</h1>
+            <h1 className="text-5xl font-bold text-pink-500">Nurturing Future Leaders</h1>
             <p className="mt-4 text-2xl">Empowering Minds, Shaping Tomorrow</p>
           </motion.div>
         </div>

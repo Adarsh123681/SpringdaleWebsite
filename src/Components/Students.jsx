@@ -43,6 +43,7 @@ function Students() {
           </video>
           <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center  bg-black/50">
             <h1 className="text-5xl font-bold text-white">Life at Springdale</h1>
+            <button type="button" className="text-white text-2xl  bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full p-3 text-center mt-10 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"><a href="https://www.youtube.com//ELQO-PHCIxc?si=5YEdQCLbUxQPIQ2b" target='_blank'>Explore Virtual</a></button>
           </div>
         </div>
 

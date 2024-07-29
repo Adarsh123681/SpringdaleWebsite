@@ -3,13 +3,13 @@
   line-height: 1.5;
   margin: 0%;
   padding: 0%;
-  font-weight: 400; 
-  color: black;  
+  font-weight: 400;
+  color: black;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x:hidden
+  overflow-x: hidden;
 }
 
 .animate-fade-in {
@@ -23,27 +23,35 @@
   transform: translateY(0);
 }
 
-
-
 /* nh academics */
 
-.myStyle{
- background: rgba(0, 0, 0, 0.5)url("https://media.istockphoto.com/id/668523284/photo/diversity-friends-using-digital-devices-concept.webp?b=1&s=170667a&w=0&k=20&c=jTDEfJwcWVJcurIgcepNs8FhKYi7cmoMOts0UebE75w=");
- background-repeat: no-repeat;
- background-position: center;
- background-size: cover;
- background-blend-mode: darken;
-}
-
-
-.myStyle1{
-  background: rgba(0, 0, 0, 0.5)url("https://media.istockphoto.com/id/1193612058/photo/group-of-elementary-age-students-going-to-class.jpg?s=612x612&w=is&k=20&c=2Fty_Sind7cPU8g0n5gPzDRXsPKCDlyMkQbciyIPvg8=");
+.myStyle {
+  background: rgba(0, 0, 0, 0.5)
+    url("https://kid-ex.com/images/program-bg1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-blend-mode: darken;
- }
- 
+}
+
+.myStyle1 {
+  background: rgba(0, 0, 0, 0.5)
+    url("https://img.pikbest.com/background/20220119/new-semester-admissions-hd-background_6220059.jpg!bw700");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.myStyle2 {
+  background: rgba(0, 0, 0, 0.5)
+    url("https://t3.ftcdn.net/jpg/01/18/54/74/360_F_118547497_JLN2qhx1BmRB4hTzfz3I90kQbGhZWNcg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
 /*
 a {
   font-weight: 500;

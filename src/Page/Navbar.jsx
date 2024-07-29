@@ -12,7 +12,7 @@ function Navbar() {
     <nav className="bg-pink-200 text-black">
       <div className="container mx-auto flex flex-row justify-between items-centertext-black py-4">
         <div className="flex items-center">
-          {/* <img src="/logo.png" alt="School Logo" className="h-10 mr-2" /> */}
+          <img src="https://imgs.search.brave.com/2aK4Pzer9ajMspalZU9YYms4rn7cD8f2P914EB0i5YQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9keW5h/bWljLmJyYW5kY3Jv/d2QuY29tL2Fzc2V0/L2xvZ28vYWU3MzUx/MDUtNDk1YS00ODY2/LThlYzctZjc2NGIw/MjRlYzQzL2xvZ28t/c2VhcmNoLWdyaWQt/MXg_bG9nb1RlbXBs/YXRlVmVyc2lvbj0x/JnY9NjM4NDUzMzc3/MzI1NzcwMDAw" alt="School Logo" className="h-10 mr-2" />
           <h1 className="font-bold text-3xl text-black">Springdale Public School</h1>
         </div>
         <div className="lg:flex lg:space-x-4 hidden lg:block">
@@ -29,9 +29,9 @@ function Navbar() {
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-20 h-20">
             <path strokeLinecap="round"
               strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-          </svg> 
+          </svg>
         </button>
-        <div className={`fixed top-0 left-0 w-full h-screen bg-pink-400 z-50 ${isMenuOpen ? 'block' : 'hidden'}`}>
+        <div className={`fixed top-0 left-0 w-[20rem] h-screen bg-pink-400 z-50 ${isMenuOpen ? 'block' : 'hidden'}`}>
           <div className="flex flex-col items-center justify-center h-full">
             <Link to="/" className="text-black py-4">Home</Link>
             <Link to="/about" className=" text-black py-4">About</Link>
