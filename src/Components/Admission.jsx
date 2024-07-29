@@ -61,6 +61,7 @@ const Admission = () => {
               <h2 className="text-2xl font-bold mb-4">Application Form</h2>
               <label htmlFor="name" className="block text-gray-700 font-bold mb-2 text-2xl">Name</label>
               <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} className="border border-gray-400 rounded py-2 px-3 w-full" />
+
               {/* Form fields here */}
 
               <label htmlFor="email" className="block text-gray-700 font-bold mb-2 text-2xl">email</label>
@@ -86,6 +87,7 @@ const Admission = () => {
 
 
               <button onClick={handleFormClose} className="bg-pink-700 p-4  my-4  text-white rounded">Close</button>
+              <button onClick={handleFormClose} className="bg-pink-700 p-4  my-4 mx-2 text-white rounded">Submit</button>
             </div>
           </div>
         )}

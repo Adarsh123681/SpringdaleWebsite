@@ -31,8 +31,8 @@ function Navbar() {
               strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg>
         </button>
-        <div className={`fixed top-0 left-0 w-[20rem] h-screen bg-pink-400 z-50 ${isMenuOpen ? 'block' : 'hidden'}`}>
-          <div className="flex flex-col items-center justify-center h-full">
+        <div className={`fixed top-0 left-0 w-[20rem] h-screen bg-pink-400 z-50  float-right ${isMenuOpen ? 'block' : 'hidden'}`}>
+          <div className="flex flex-col items-center justify-start h-full ">
             <Link to="/" className="text-black py-4">Home</Link>
             <Link to="/about" className=" text-black py-4">About</Link>
             <Link to="/academics" className=" text-black py-4">Academics</Link>

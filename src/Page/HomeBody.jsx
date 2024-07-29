@@ -91,7 +91,7 @@ const HomeBody = () => {
               </section>
             </aside>
             <main className="flex-1 -mt-20">
-              <aside className="sidebar w-[50rem] h-[40rem] bg-gray-100 p-4">
+              <aside className="sidebar w-[35rem] lg:w-[50rem] h-[40rem] bg-gray-100 p-4">
                 <div className="news-slider">
                   <Slider {...settings}>
                     {newsData.map((news, index) => (

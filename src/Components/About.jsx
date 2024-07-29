@@ -48,7 +48,7 @@ const About = () => {
       <div className="myStyle2 banner relative  w-screen h-screen bg-cover bg-center bg-no-repeat">
         <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center  ">
           <h1 className="text-5xl font-bold text-center text-pink-500">Welcome to Springdale Public School</h1>
-          <p className="mt-4 text-2xl text-white">Nurturing young minds for a brighter future.</p>
+          <p className="mt-4 text-3xl text-white">Nurturing young minds for a brighter future.</p>
         </div>
       </div>
 
