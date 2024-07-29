@@ -30,5 +30,5 @@ const data = [
     description: 'Our cafeteria provides healthy and nutritious meals for students.'
   }
 ];
-
+                   
 export default data

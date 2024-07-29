@@ -37,7 +37,7 @@ function Students() {
     <>
       <div className="container ">
         {/* Video Background */}
-        <div className="relative h-screen bg-cover bg-center bg-blend-darken">
+        <div className="relative w-screen h-screen bg-cover bg-center bg-blend-darken">
           <video autoPlay loop muted className="w-full h-full object-cover bg-blend-darken">
             <source src="https://media.istockphoto.com/id/1071486906/video/elementary-school-kids-run-from-camera-in-school-corridor.mp4?s=mp4-640x640-is&k=20&c=IG9-1UtgfjaUQS2V-yyE8lfh13FbxD9O6qQZHXVJFzY=" />
           </video>

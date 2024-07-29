@@ -21,7 +21,7 @@ const Home = () => {
             Founded in 1985, Springdale Public School has been dedicated to providing quality education and holistic development to students. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, doloremque dolorem? Asperiores rem quos hic velit ut veniam repellendus doloribus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis beatae tempora neque soluta ex sed illum, debitis quam aliquid dignissimos!
             <button type="button" className="text-white text-2xl  bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full p-3 text-center my-5 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"><a href="/about">Know more about Us</a></button>
 
-          </p>
+          </p>npm run 
 
         </div>
       </div>
