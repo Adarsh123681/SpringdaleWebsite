@@ -58,7 +58,7 @@ const Gallery = () => {
             return (
               <>
                 <div>
-                  <img src={filteredImage.image} alt="" className="w-[35rem] h-[35rem] rounded-lg m-auto my-5" />
+                  <img src={filteredImage.image} alt="" className="w-[30rem] h-[30rem] rounded-lg m-auto my-5" />
                   <h1 className='text-2xl w-[35rem] m-auto text-center'>{filteredImage.title} - {filteredImage.description}</h1>
                 </div>
               </>

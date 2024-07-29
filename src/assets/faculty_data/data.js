@@ -4,7 +4,7 @@ const data = [
     position: "Principal",
     degree: "M.Ed",
     experience: "20 years of experience in educational administration",
-    image: "https://imgs.search.brave.com/JB2kY9n10KhPm5LyHqx-r1kwduPvSC-3db0sZIcGwB8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNTE1/MjY0Njc4L3Bob3Rv/L3BvcnRyYWl0LW9m/LWNvbmZpZGVudC1j/YXVjYXNpYW4tbWFs/ZS10ZWFjaGVyLWlu/LWNsYXNzcm9vbS5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/WHhaUHJyckM3WHNq/ekxaTjFUcUtucDZr/NE9vek14TFN2X3py/dkNEalA3ST0", 
+    image: "https://media.gettyimages.com/id/1468138682/photo/happy-elementary-teacher-in-front-of-his-students-in-the-classroom.jpg?s=612x612&w=gi&k=20&c=Iul_7HmKCSmvRYDKOIxlI6rIqDMgPGGZl-TufzPMZBk=", 
   },
   {
     title: "Jane Smith",
@@ -18,28 +18,28 @@ const data = [
     position: "English Teacher",
     degree: "M.A. in English",
     experience: "10 years of teaching experience",
-    image: "https://imgs.search.brave.com/LnKCUeT8whGAGEWfBfb3pgMx6GtNYG6mqVd0FWOm83o/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTM5/NTYwMTk1OC9waG90/by9oaWdoLXNjaG9v/bC10ZWFjaGVyLWlu/LWEtbGlicmFyeS5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/T28wS3htZmxWVG8z/LTdDTDVua256RFlo/Y09MWFVwdm9yWmhG/SDlEdWh0WT0", 
+    image: "https://school.navodaya.edu.in/wp-content/uploads/2021/04/Mrs.-Hampamma-Mathad-600x600.jpg", 
   },
   {
     title: "Michael Brown",
     position: "Mathematics Teacher",
     degree: "M.Sc. in Mathematics",
     experience: "8 years of teaching experience",
-    image: "https://imgs.search.brave.com/wfhztLkNaedrbL7Liumg1EGZIVukZmOWrCJBquT8JhE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTM1/NjYzNjA3OC9waG90/by9wb3J0cmFpdC1v/Zi1hLXRlYWNoZXIt/aW4tdGhlLWNsYXNz/cm9vbS5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9RVNPX0VK/clNaaU16V3Q0REc0/MEI2ZXlkUXlKajV6/UWtvTnYwbFN1djdL/cz0", 
+    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fstrate.in%2Ffaculty%2F&psig=AOvVaw2P-D6tc4guQU2HTWSQ_9n3&ust=1722311343299000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIDRtvCry4cDFQAAAAAdAAAAABAl", 
   },
   {
     title: "Sophia Davis",
     position: "Science Teacher",
     degree: "M.Sc. in Chemistry",
     experience: "12 years of teaching experience",
-    image: "https://imgs.search.brave.com/VOG8clRChSRQ4FenF6QBhKm-CGHcd5Pl-IrRM5yRyAU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2ZmLzYz/L2QwL2ZmNjNkMDBl/NDNhODM0ZjA0ZjEz/MmRkOWM1NGExMDBl/LmpwZw", 
+    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fnpschd.com%2Fstaff%2F&psig=AOvVaw2P-D6tc4guQU2HTWSQ_9n3&ust=1722311343299000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIDRtvCry4cDFQAAAAAdAAAAABAV", 
   },
   {
     title: "David Wilson",
     position: "Computer Science Teacher",
     degree: "B.Tech in Computer Science",
     experience: "5 years of teaching experience",
-    image: "https://imgs.search.brave.com/efZ4Ypullk-7hPmF7rDS0miLzBMly8DBdFCf5YgRMuU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTA3/OTgzNTg5L3Bob3Rv/L3RlYWNoZXItaW4t/Y2xhc3Nyb29tLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1v/bGNhMGo5M0NOeXVS/X3BiY1liUEpjVk1j/LXFQcmlmV3pPaHpr/V18zM0k4PQ", 
+    image: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wixstatic.com%2Fmedia%2Ff29914_aa362ee73c6e4a7eb8bc0c8fab5b546a~mv2.jpg%2Fv1%2Ffill%2Fw_513%2Ch_518%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_auto%2FIMG_5769_edited.jpg&tbnid=pKs9rwgmMruimM&vet=12ahUKEwig9N_vq8uHAxWi9qACHcagGV4QMyhAegUIARD0AQ..i&imgrefurl=https%3A%2F%2Fwww.twgs.in%2Ffaculty&docid=PwhwV-fs9fBcQM&w=513&h=518&q=school%20faculty%20image&ved=2ahUKEwig9N_vq8uHAxWi9qACHcagGV4QMyhAegUIARD0AQ", 
   },
 ];
 

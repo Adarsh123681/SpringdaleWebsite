@@ -2,37 +2,51 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const toggleDropdown = () => {
-    setIsDropdownOpen(!isDropdownOpen);
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
   };
 
   return (
-    <>
-      <div className="w-screen flex flex-col justify-center items-center p-5 bg-pink-200 text-black relative">
-        <div className="flex justify-center items-center m-auto">
-          <img src="https://imgs.search.brave.com/YCR1TjpjKmHQRGvxt2DAvoBf8rZbYEg3ukK42KDGftw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/Ny83Ny9QYWxtZGFs/ZV9IaWdoX1NjaG9v/bF8oY3Jlc3QpLmpw/Zy8yMjBweC1QYWxt/ZGFsZV9IaWdoX1Nj/aG9vbF8oY3Jlc3Qp/LmpwZw" alt="School Logo" className=" w-h h-10 mr-2 border rounded-full shadow-pink-300 shadow-2xl" />
-          <h1 className=" font-bold text-3xl lg:w-[70rem] text-center">Springdale Public School
-          </h1>
+    <nav className="bg-pink-200 text-white">
+      <div className="container mx-auto flex flex-row justify-between items-center py-4">
+        <div className="flex items-center">
+          {/* <img src="/logo.png" alt="School Logo" className="h-10 mr-2" /> */}
+          <h1 className="font-bold text-3xl text-black">Springdale Public School</h1>
         </div>
-        <div className=" flex md:flex space-x-2 mt-3">
-          <Link to="/" className=" mx-3 text-[1.2rem] lg:text-[1.2rem] hover:text-gray-300">Home</Link>
-
-          <Link to="/about" className=" mx-3 text-[1.2rem] lg:text-[1.2rem] hover:text-gray-300">About</Link>
-        
-          <Link to="/academics" className=" mx-3 text-[1.2rem] lg:text-[1.2rem] hover:text-gray-300">Academics</Link>
-          <Link to="/admissions" className=" mx-3 text-[1.2rem] lg:text-[1.2rem] hover:text-gray-300">Admissions</Link>
-          <Link to="/faculty" className=" mx-3 text-[1.2rem] lg:text-[1.2rem] hover:text-gray-300">Faculty</Link>
-          <Link to="/students" className=" mx-3 text-[1.2rem] lg:text-[1.2rem] hover:text-gray-300">Students</Link>
-          <Link to="/gallery" className=" mx-3 text-[1.2rem] lg:text-[1.2rem] hover:text-gray-300">Gallery</Link>
-          <Link to="/contact" className=" mx-3 text-[1.2rem] lg:text-[1.2rem] hover:text-gray-300">Contact</Link>
+        <div className="lg:flex lg:space-x-4 hidden lg:block">
+          <Link to="/" className="hover:text-gray-500 text-black">Home</Link>
+          <Link to="/about" className="hover:text-gray-500 text-black">About</Link>
+          <Link to="/academics" className="hover:text-gray-500 text-black">Academics</Link>
+          <Link to="/admissions" className="hover:text-gray-500 text-black">Admissions</Link>
+          <Link to="/faculty" className="hover:text-gray-500 text-black">Faculty</Link>
+          <Link to="/students" className="hover:text-gray-500 text-black">Students</Link>
+          <Link to="/gallery" className="hover:text-gray-500 text-black">Gallery</Link>
+          <Link to="/contact" className="hover:text-gray-500 text-black">Contact</Link>
+        </div>
+        <button onClick={toggleMenu} className="lg:hidden text-black">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-20 h-20">
+            <path strokeLinecap="round"
+              strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </button>
+        <div className={`fixed top-0 left-0 w-full h-screen bg-gray-800 z-50 ${isMenuOpen ? 'block' : 'hidden'}`}>
+          <div className="flex flex-col items-center justify-center h-full">
+            <Link to="/" className=" hover:text-gray-400 text-black py-4">Home</Link>
+            <Link to="/about" className=" hover:text-gray-400 text-black py-4">About</Link>
+            <Link to="/academics" className=" hover:text-gray-400 text-black py-4">Academics</Link>
+            <Link to="/admissions" className=" hover:text-gray-400 text-black py-4">Admissions</Link>
+            <Link to="/faculty" className=" hover:text-gray-400 text-black py-4">Faculty</Link>
+            <Link to="/students" className=" hover:text-gray-400 text-black py-4">Students</Link>
+            <Link to="/gallery" className=" hover:text-gray-400 text-black py-4">Gallery</Link>
+            <Link to="/contact" className=" hover:text-gray-400 text-black py-4">Contact</Link>
+            <button onClick={toggleMenu} className="text-white hover:text-gray-400 text-black mt-4">Close</button>
+          </div>
         </div>
       </div>
-    </>
+    </nav>
   );
 }
 
 export default Navbar;
-
-

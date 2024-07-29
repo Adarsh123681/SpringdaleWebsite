@@ -9,7 +9,7 @@ import Faculty from './Components/Faculty'
 import Gallery from "./Components/Gallery"
 import ContactUs from "./Components/ContactUs"
 import Academics from './Components/Academics';
-import Curiiculum from './Page/Curiiculum';
+
 import Footer from './Page/Footer';
 
 function App() {
@@ -24,7 +24,6 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/faculty" element={<Faculty />} />
         <Route path="/students" element={<Students />} />
-        <Route path="/curiiculum" element={<Curiiculum />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<ContactUs />} />
       </Routes>

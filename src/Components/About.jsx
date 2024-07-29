@@ -56,14 +56,14 @@ const About = () => {
       {/* history */}
       <div className="container mx-auto px-4">
 
-
+           <div className="img-headng w-30 h-30 m-5"> <img src="https://i0.wp.com/preprimary.noelschool.org.in/wp-content/uploads/2021/12/194-1947972_our-vision-mission-vision-and-mission-icon-hd.png?resize=800%2C445" alt="" srcset="" className="mx-auto w-[40rem] h-[20rem]" /></div>
         <div className="mission-vision flex flex-col md:flex-row gap-8 mt-8">
-
+      
           {/* mession vision */}
           <div className="mission flex-1">
             <div className="img relative h-[40rem]">
-              <img src="https://img.freepik.com/free-photo/3d-rendering-arrow-hitting-target_23-2151266590.jpg?t=st=1721981364~exp=1721984964~hmac=76ac682f60866cb99125b4e37bd55967dc90ff996aba1505b7d45dc623750629&w=1060" />
-              <div className="overlay absolute top-0 left-0 w-full h-full flex items-center justify-center bg-black/50">
+              <img src="https://i0.wp.com/www.vidyadhirajamvk.org/wp-content/uploads/2023/07/mission-vidhyadhiraja.jpg?fit=1000%2C650&ssl=1" />
+              <div className="overlay absolute top-0 left-0 w-fit h-full flex items-center justify-center bg-black/50">
                 <h2 className="text-white text-4xl text-center ">Mission  <p className=" text-2xl m-4"> To empower students with the knowledge, skills, and values needed to thrive in a dynamic world.</p></h2>
                 <div className="content">
                 </div>
@@ -75,8 +75,8 @@ const About = () => {
           {/* vision */}
           <div className="vision flex-1">
             <div className="img relative">
-              <img src="https://img.freepik.com/free-photo/3d-rendering-arrow-hitting-target_23-2151266590.jpg?t=st=1721981364~exp=1721984964~hmac=76ac682f60866cb99125b4e37bd55967dc90ff996aba1505b7d45dc623750629&w=1060" />
-              <div className="overlay absolute top-0 left-0 w-full h-full flex items-center justify-center bg-black/50">
+              <img src="https://static.wixstatic.com/media/508759_b8d332384b704ee19eddf0bc00d3b8aa~mv2.jpg/v1/fill/w_792,h_521,al_c,lg_1,q_85/508759_b8d332384b704ee19eddf0bc00d3b8aa~mv2.jpg" />
+              <div className="overlay absolute top-0 left-0 w-fit h-full flex items-center justify-center bg-black/50">
                 <h2 className="text-white text-4xl text-center ">Vision  <p className=" text-2xl m-4">
                   To create a learning environment that fosters academic excellence, critical thinking, and ethical values.
                 </p></h2>
@@ -92,7 +92,7 @@ const About = () => {
 
       <div className="principal-message text-center my-16">
 
-        <img class="rounded-full w-96 h-96 m-auto my-10" src="https://cdn.pixabay.com/photo/2016/11/23/00/57/adult-1851571_640.jpg" alt="image description" />
+        <img class="rounded-full w-[20rem] h-[20rem] m-auto my-10" src="https://cdn.pixabay.com/photo/2016/11/23/00/57/adult-1851571_640.jpg" alt="image description" />
 
         <h2 className="font-bold text-4xl">Principal's Message</h2>
         <p className='text-2xl py-5'>At Springdale, we believe in nurturing the potential of every student and guiding them towards a successful future.</p>

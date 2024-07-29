@@ -45,9 +45,9 @@ const HomeBody = () => {
     <>
       2
       {/* notice and alert */}
-      <div className="w-screen text-black bg-white text-2xl ">
-        <div className="container">
-          <div className="flex flex-col md:flex-row">
+      <div className="w-screen text-black bg-white text-2xl">
+        <div className="container m-auto">
+          <div className="flex flex-col md:flex-row justify-center items-center">
             <aside className="sidebar w-full md:w-1/2 bg-gray-100 p-4">
               <section className="p-4">
                 <div className="container mx-auto">
@@ -113,8 +113,8 @@ const HomeBody = () => {
           <h3 class="mb-5 text-4xl font-medium text-gray-900 text-center my-16">Why To Choose Us</h3>
           <div className="flex flex-col lg:flex-row justify-center items-center m-4 ">
             <img src="https://cdn.pixabay.com/photo/2015/08/05/13/55/children-876543_640.jpg" alt="image description" className='h-[20rem] lg:h-[30rem]'/>
-            <div className="w-[40rem] lg:w-[50rem] m-5 flex">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet deleniti eum, sint quisquam magnam distinctio debitis praesentium, harum voluptates laboriosam id quia. Incidunt dolores voluptatem autem quae minima numquam pariatur eaque necessitatibus corrupti, impedit odio explicabo tempore, cum beatae.
+            <div className="w-[40rem] lg:w-[50rem] m-5 ">
+               <p className='grid justify-end items-end '>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet deleniti eum, sint quisquam magnam distinctio debitis praesentium, harum voluptates laboriosam id quia. Incidunt dolores voluptatem autem quae minima numquam pariatur eaque necessitatibus corrupti, impedit odio explicabo tempore, cum beatae.</p>
             </div>
           </div>
           </div>

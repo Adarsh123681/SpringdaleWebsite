@@ -20,7 +20,7 @@ function ContactUs() {
 
   return (
 
-    <div className="container mx-auto py-10">
+    <div className="container pt-10">
       <h2 className="text-4xl font-bold mb-10 text-center">Contact Us</h2>
       <div className="flex mx-2 items-center justify-center m-auto flex-col md:flex-row ">
         <div className="w-[39rem] mx-16 text-2xl hidden md:block flex justify-start items-start">
@@ -47,16 +47,9 @@ function ContactUs() {
         </div>
 
       </div>
-      <div className='p-0 my-5'>
+      <div className='mt-5 mx-0 w-screen '>
         {/* Google Map iframe */}
-        <iframe src=" https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15071.042832178071!2d72.81609734999999!3d19.2056512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1721823187712!5m2!1sen!2sin"
-          width="100%"
-          height="400"
-          style={{ border: 0 }}
-          allowFullScreen=""
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-        ></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d75747.2999450396!2d72.84801079934438!3d19.21969687066951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1722219554069!5m2!1sen!2sin" width="100%" height="450" allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
       </div>
 
     </div>

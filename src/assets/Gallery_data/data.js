@@ -38,7 +38,7 @@ export const data =
     {
       id: 6,
       category: 'all',
-      image: 'library.jpg',
+      image: 'https://education.ucdavis.edu/sites/main/files/imagecache/medium/main-images/soe_faculty_and_staff_retreat_group_001_rev_web.jpg?1697648435',
       title: 'Knowledge Corner',
       description: 'Students immersed in a world of books and learning.'
     }

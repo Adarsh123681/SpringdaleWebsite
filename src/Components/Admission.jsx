@@ -36,9 +36,9 @@ const Admission = () => {
         </section>
 
         {/* Admissions Process */}
-        <section className="py-12">
+        <section className="py-12 w-screen m-auto11111">
           <h2 className="text-3xl font-bold text-center mb-8">Admission Process</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 m-auto">
             <div className="bg-white rounded-lg p-6 border border-pink-200 shadow-lg shadow-pink-200">
               <h2 className='text-semibold text-2xl p-4 m-2'>Step 1: Download Application Form</h2>
               <p className=' text-[1.3rem] px-4 m-2'>Download the admission form from our website or collect it from the school office.</p>

@@ -47,10 +47,10 @@ function Students() {
         </div>
 
         {/* Activities and Clubs Sections (Grid) */}
-        <div className="grid gap-4">
+        <div className="w-screen grid gap-4 m-auto">
           <div ref={activitiesRef} className="rounded-lg p-8">
             <h2 className="text-3xl text-center font-bold mb-4">Extracurricular Activities</h2>
-            <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 justify-center item-center">
               {extradata.extracurricularActivities.map((ele, index) => {
                 const { name, image } = ele;
                 return (
