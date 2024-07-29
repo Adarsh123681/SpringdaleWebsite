@@ -41,17 +41,18 @@ const Faculty = ({ position, image, experience, title, degree }) => {
           </div>
         </div>
         <Slider {...settings}>
-          {data.map((member , index) => {
-            const { image, experience, title , degree, position } = member
+          {data.map((member, index) => {
+            const { image, experience, title, degree, position } = member
             return (
               <>
-                <div className="facilities mt-8 h-[50rem]">
-                  <div key={index} className="-card">
-                    <img src={image} alt={title} className='w-[30rem] h-[25rem] m-auto' />                    <h3 className="text-center text-[2rem] font-semibold mt-5">{title}</h3>
+                <div className="facilities mt-8 h-[54rem]">
+                  <div key={index} className="border-[.1rem] mx-2 border-pink-400 rounded-lg shadow-pink-300 shadow-2xl p-2">
+                    <img src={image} alt={title} className='w-[30rem] h-[25rem] m-auto   ' />  
+                    <h3 className="text-center text-[2rem] font-semibold mt-5">{title}</h3>
                     <p className="text-center text-xl  w-[25rem] m-auto ">{position}</p>
                     <p className="text-center text-xl  w-[25rem] m-auto ">{degree}</p>
                     <p className="text-center text-xl  w-[25rem] m-auto ">{experience}</p>
-                    
+
                   </div>
                 </div>
               </>

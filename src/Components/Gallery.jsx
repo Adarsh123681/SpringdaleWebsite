@@ -20,18 +20,15 @@ const Gallery = () => {
   return (
 
     <>
-
+      {/* banner */}
+      <div className="banner w-screen h-60 relative">
+        <img src="https://lh4.googleusercontent.com/proxy/3d3YHSBJCCHi7zfS5G_qW61O1Jw50JmoQtYHE9jW2tDojrqZ1LjIWJctv6WlRDCdX6DWwbDyrlANtp06D3Z-1VWspg0g0lsxccPh2H-c9VkVl2r79NivBHh-ttk05w_QJuAAX4raW0rNJ1w" alt="" className="w-full h-60 object-cover" /> 
+      </div>
+      
       {/* videos */}
-      <div className="md:flex m-2 justify-center">
-        {/* video1 */}
-
-        <iframe width="520" height="315" src="https://www.youtube.com/embed/ELQO-PHCIxc?si=5YEdQCLbUxQPIQ2b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-        {/* video2 */}
-
-        <h1>VVDEO 2 </h1>
-
-        <iframe width="520" height="315" src="https://www.youtube.com/embed/ELQO-PHCIxc?si=5YEdQCLbUxQPIQ2b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <div className="md:flex m-5 justify-center">
+ 
+        <iframe width="390" height="315" src="https://www.youtube.com/embed/ELQO-PHCIxc?si=5YEdQCLbUxQPIQ2b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
       </div>
 
@@ -58,7 +55,7 @@ const Gallery = () => {
             return (
               <>
                 <div>
-                  <img src={filteredImage.image} alt="" className="w-[30rem] h-[30rem] rounded-lg m-auto my-5" />
+                  <img src={filteredImage.image} alt="" className="w-[30rem] h-[30rem] rounded-lg m-auto my-5 p-5" />
                   <h1 className='text-2xl w-[35rem] m-auto text-center'>{filteredImage.title} - {filteredImage.description}</h1>
                 </div>
               </>

@@ -96,7 +96,7 @@ const HomeBody = () => {
                   <Slider {...settings}>
                     {newsData.map((news, index) => (
                       <div key={index} className="news-item ">
-                        <img src={news.image} alt={news.title} className="w-full object-cover mb-2 h-[30rem]" />
+                        <img src={news.image} alt={news.title} className="w-full object-cover mb-2 h-[30rem]  border-pink-300 border-2 shadow-lg shadow-pink rounded-2xl" />
                         <h3 className="text-4xl font-bold m-3">{news.title}</h3>
                         <p className="text-2xl m-3">{news.content}</p>
                       </div>
@@ -112,7 +112,7 @@ const HomeBody = () => {
           <div className="w-screen h-[40rem] felx justify-center items-center my-10">
           <h3 class="mb-5 text-4xl font-medium text-gray-900 text-center my-16">Why To Choose Us</h3>
           <div className="flex flex-col lg:flex-row justify-center items-center m-4 ">
-            <img src="https://cdn.pixabay.com/photo/2015/08/05/13/55/children-876543_640.jpg" alt="image description" className='h-[20rem] lg:h-[30rem]'/>
+            <img src="https://cdn.pixabay.com/photo/2015/08/05/13/55/children-876543_640.jpg" alt="image description" className='h-[20rem] lg:h-[30rem] border-pink-300 border-2 shadow-lg shadow-pink rounded-2xl'/>
             <div className="w-[40rem] lg:w-[50rem] m-5 ">
                <p className='grid justify-end items-end '>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet deleniti eum, sint quisquam magnam distinctio debitis praesentium, harum voluptates laboriosam id quia. Incidunt dolores voluptatem autem quae minima numquam pariatur eaque necessitatibus corrupti, impedit odio explicabo tempore, cum beatae.</p>
             </div>
